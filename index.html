@@ -248,7 +248,7 @@
 
             // 2) Using jQuery (JSON-P)
             jQuery.ajax({
-                url: `https://sg.media-imdb.com/suggests/f/${q}.json`,
+                url: `https://sg.media-imdb.com/suggests/${q.charAt(0)}/${q}.json`,
                 dataType: 'jsonp',
                 cache: true,
                 jsonp: false,
