@@ -1,24 +1,29 @@
-# Free Movie and TV Show Streaming Website
+# Movie and TV Show Streaming Website
 
-### Video Demo: https://youtu.be/ZdbZgsT-24k
+### Description
 
-### Description:
-This is a website that allows users to watch movies and TV shows for free.   
+A front-end website that lets users search and stream movies and TV shows. Built with HTML, JavaScript, and modern web APIs.
 
-The website is built using only HTML and JS.   
+### Features
 
-It is a front-end only website, so there is no backend. The website is hosted on GitHub Pages.   
+- Search movies and TV shows using IMDb data
+- Watch content through embedded video players
+- Track watch history locally
+- Support for both movies and TV series (with season/episode selection)
+- Responsive Bootstrap UI
 
-It uses the IMDb search API to search for the movies and shows by title and uses another external API to get the iframes for the videos.
+### Technologies Used
 
-jQuery is also used a bit in the website.
+- HTML5 & JavaScript
+- jQuery for AJAX calls
+- Bootstrap 5 for UI components
+- IMDb API for search
+- History API for clean URLs
+- Local Storage for watch history
 
-This also uses the `fetch` function to make API calls.
+### How to use
 
-Also, makes use of the history API to change the URL without reloading the page.
-
-### How to use:
-1. Go to the website: https://mahad-hashmi2804.github.io/
+1. Visit: https://kuail33.github.io/
 2. Search for a movie or TV show by title
 3. Click on the movie or TV show you want to watch
 4. Fill in the season and episode number if you are watching a TV show
